@@ -9,7 +9,7 @@ from Data_Entry import Data_Entry
 op = webdriver.ChromeOptions()
 op.add_argument('headless')
 driver = webdriver.Chrome(options=op)
-startdate = "2020-5-10" # input("Start date: ")
+startdate = input("Start date: ")
 currentdate = str(date.today())
 print(currentdate)
 driver.get("https://waterdata.usgs.gov/nwis/uv?cb_00062=on&format=rdb&site_no=12452000&period=&"
