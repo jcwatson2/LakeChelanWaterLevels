@@ -1,0 +1,6 @@
+- navigate to correct data file and parse it
+- create a class that will read the data and sort according to the specified time frame that will be used to create graphs
+- figure out how to set a certain level for the water to rise to
+- design the front end gui with html and css (learn html and css)
+- connect front end to back end with javascript (learn javascript)
+- figure out how to get it on the internet
